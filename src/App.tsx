@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import { AuthProvider } from './contexts/AuthContext';
 
 // Public Pages
-import HomePage from './pages/marketing/HomePage';
-import FeaturesPage from './pages/marketing/FeaturesPage';
+import HomePage from './pages/marketing/HomePageNew';
+import FeaturesPage from './pages/marketing/FeaturesPageNew';
 import TemplatesPage from './pages/marketing/TemplatesPage';
 import TemplatePreviewPage from './pages/marketing/TemplatePreviewPage';
 import LearningHubPage from './pages/marketing/LearningHubPage';

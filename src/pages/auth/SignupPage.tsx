@@ -26,7 +26,7 @@ export default function SignupPage() {
             <div className="w-10 h-10 bg-gradient-to-br from-blue-600 via-purple-600 to-pink-600 rounded-xl flex items-center justify-center">
               <Sparkles className="w-6 h-6 text-white" />
             </div>
-            <span className="text-white text-xl">Horosoft AI</span>
+            <span className="text-white text-xl">AI App Builder Platform</span>
           </Link>
 
           <h1 className="text-4xl text-white mb-2">Create your account</h1>
@@ -156,19 +156,19 @@ export default function SignupPage() {
       <div className="hidden lg:flex flex-1 bg-gradient-to-br from-blue-600 via-purple-600 to-pink-600 p-12 items-center justify-center">
         <div className="max-w-lg">
           <h2 className="text-4xl text-white mb-6">
-            Start Building Amazing Software Today
+            Build Complete SaaS Platforms with AI
           </h2>
           <p className="text-blue-100 mb-8 text-lg">
-            Join 50,000+ developers using Horosoft AI Builder to ship 10x faster
+            Multi-tenant engine, legacy code repair, AI chatbots, and more
           </p>
           <div className="space-y-4">
             {[
-              'AI Code Generator for any framework',
-              'Clone websites with pixel-perfect accuracy',
-              'Visual workflow automation builder',
-              '1,000 free AI credits to start',
-              'No credit card required',
-              'Cancel anytime'
+              'Multi-tenant SaaS engine with custom subdomains',
+              'Legacy code AI repair (VB6, Delphi, .NET)',
+              'Hindi + Hinglish chatbot support',
+              'Website to mobile app converter',
+              'PHP shared hosting compatible',
+              'AppSumo integration included'
             ].map((feature, i) => (
               <div key={i} className="flex items-center gap-3 text-white">
                 <div className="w-6 h-6 bg-white/20 rounded-full flex items-center justify-center flex-shrink-0">

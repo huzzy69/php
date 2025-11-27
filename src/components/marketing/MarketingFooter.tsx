@@ -13,10 +13,10 @@ export default function MarketingFooter() {
               <div className="w-9 h-9 bg-gradient-to-br from-blue-600 via-purple-600 to-pink-600 rounded-xl flex items-center justify-center">
                 <Sparkles className="w-5 h-5 text-white" />
               </div>
-              <span className="text-white">Horosoft AI</span>
+              <span className="text-white">AI App Builder Platform</span>
             </Link>
             <p className="text-slate-400 text-sm mb-6 max-w-xs">
-              AI-powered software builder that generates complete websites, apps, and workflows from simple prompts.
+              Complete multi-tenant SaaS platform with AI-powered code generation, legacy repair, workflow automation, and mobile app conversion.
             </p>
             <div className="flex items-center gap-3">
               <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="p-2 bg-slate-900 hover:bg-slate-800 rounded-lg transition-colors">
@@ -54,7 +54,6 @@ export default function MarketingFooter() {
             <h4 className="text-white text-sm mb-4">Company</h4>
             <ul className="space-y-3">
               <li><Link to="/about" className="text-slate-400 hover:text-white text-sm transition-colors">About</Link></li>
-              <li><Link to="/why-horosoft" className="text-slate-400 hover:text-white text-sm transition-colors">Why Horosoft</Link></li>
               <li><Link to="/contact" className="text-slate-400 hover:text-white text-sm transition-colors">Contact</Link></li>
               <li><Link to="/careers" className="text-slate-400 hover:text-white text-sm transition-colors">Careers</Link></li>
               <li><Link to="/blog" className="text-slate-400 hover:text-white text-sm transition-colors">Blog</Link></li>
@@ -89,17 +88,14 @@ export default function MarketingFooter() {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-slate-900 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-slate-500 text-sm">
-            © 2025 Horosoft AI Builder. All rights reserved.
+            © 2025 AI App Builder Platform. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
-            <Link to="/status" className="text-slate-500 hover:text-white text-sm transition-colors">
-              Status
+            <Link to="/contact" className="text-slate-500 hover:text-white text-sm transition-colors">
+              Contact Us
             </Link>
-            <Link to="/security" className="text-slate-500 hover:text-white text-sm transition-colors">
-              Security
-            </Link>
-            <Link to="/sitemap" className="text-slate-500 hover:text-white text-sm transition-colors">
-              Sitemap
+            <Link to="/signup" className="px-4 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white text-sm rounded-lg hover:shadow-lg transition-all">
+              Sign Up for Demo
             </Link>
           </div>
         </div>

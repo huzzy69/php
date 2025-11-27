@@ -34,7 +34,7 @@ export default function OnboardingPageNew() {
             <div className="w-12 h-12 bg-gradient-to-br from-blue-600 via-purple-600 to-pink-600 rounded-xl flex items-center justify-center">
               <Sparkles className="w-6 h-6 text-white" />
             </div>
-            <span className="text-white text-2xl">Horosoft AI</span>
+            <span className="text-white text-2xl">AI App Builder Platform</span>
           </div>
           <h1 className="text-4xl text-white mb-2">Welcome! Let's get you set up</h1>
           <p className="text-slate-400 text-lg">

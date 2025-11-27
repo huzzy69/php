@@ -15,7 +15,7 @@ export default function MarketingHeader() {
             <div className="w-9 h-9 bg-gradient-to-br from-blue-600 via-purple-600 to-pink-600 rounded-xl flex items-center justify-center">
               <Sparkles className="w-5 h-5 text-white" />
             </div>
-            <span className="text-white text-lg hidden sm:block">Horosoft AI Builder</span>
+            <span className="text-white text-lg hidden sm:block">AI App Builder Platform</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -48,9 +48,6 @@ export default function MarketingHeader() {
             </div>
             <Link to="/pricing" className="text-slate-300 hover:text-white transition-colors">
               Pricing
-            </Link>
-            <Link to="/why-horosoft" className="text-slate-300 hover:text-white transition-colors">
-              Why Horosoft
             </Link>
             <Link to="/learning" className="text-slate-300 hover:text-white transition-colors">
               Learn
@@ -101,9 +98,6 @@ export default function MarketingHeader() {
             </Link>
             <Link to="/pricing" className="block px-4 py-3 text-slate-300 hover:text-white hover:bg-slate-800/50 rounded-xl transition-colors">
               Pricing
-            </Link>
-            <Link to="/why-horosoft" className="block px-4 py-3 text-slate-300 hover:text-white hover:bg-slate-800/50 rounded-xl transition-colors">
-              Why Horosoft
             </Link>
             <Link to="/learning" className="block px-4 py-3 text-slate-300 hover:text-white hover:bg-slate-800/50 rounded-xl transition-colors">
               Learn
